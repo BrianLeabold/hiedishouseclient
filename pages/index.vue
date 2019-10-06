@@ -5,7 +5,7 @@
       <div class="content">
         <p class="mx-3">
           In memoriam of retired Navy Chief Hospital Corpsman (HMC), Heidi Sharon
-          Amato, who recently passed after a 2nd battle with cancer in June 2019.
+          Amato, who passed after her 2nd battle with cancer in June 2019.
           “Heidi’s House” is a pilot program by W.A.G. Healing to explore and
           strengthen the Human and Animal bond toward healing. The first “tiny cabin” will
           be built to temporally house Mack & Stella (Heidi’s surviving furry animals) and

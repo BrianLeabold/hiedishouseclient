@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <ul class="main-menu">
+    <ul class="main-menu bold">
       <li>
         <nuxt-link to="/">About</nuxt-link>
       </li>
@@ -21,12 +21,12 @@ export default {
 <style scoped>
 nav {
   width: 100%;
-  height: 75px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: chocolate;
-  color: black;
+  color: navy;
+  border-bottom: .5px solid navy;
 }
 .main-menu {
   list-style: none;

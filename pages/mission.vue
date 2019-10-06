@@ -1,20 +1,20 @@
 <template>
   <div class="container">
     <div id="content">
-      <h1 class="title">Our Mission</h1>
-      <h2 class="subtitle">Client side code for Hiedi&#39;s House</h2>
+    
+        <h1 class="title">Our Mission</h1>
+      <h2 class="subtitle">
+        WAG Healing’s focus is mutual healing of animal and person through relationship.
+      </h2>
       <div id="mission">
-        <p class="mx-3">
+        <p class="mx-3 my-2">
           WAG Healing Animal Sanctuary is a place where both animals and people can come to rest,
           renew and rebuild their lives. We believe that animals, people and nature must be acknowledged
           as partners to support a community that is committed to healing, growth and healthy connection.
+          <img class=" float-right m-1" src="../static/android-chrome-512x512.png" alt="Mack and Stella"/>
         </p>
-        <p class="mx-3">
-          WAG Healing’s focus is mutual healing of animal and person through relationship.
-          We are a small but serious initiative. Founder Julie Hendrickson, is currently working through her
-          Psychology PhD program to evolve this program.
-        </p>
-        <p class="mx-3">
+
+        <p class="mx-3 my-2">
           “Walk With Me” hosts retreats at WAG Healing's animal sanctuary. WAG Healing is located on 3.14
           acres in the Dehesa Valley. Whether you want to get away or to spend time with animals or you're
           just looking to create a new perspective on your life, you'll find a place to rest, renew and

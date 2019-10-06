@@ -3,8 +3,7 @@
     <div>
       <h1 class="title">Fresh and up to date information</h1>
       <article>
-        <div class="date bold italic">Updated 10/5/2019</div>
-        <h2 class="subtitle mx-auto w-full">5% complete</h2>
+        <h2 class="subtitle mx-auto w-full">20% complete</h2>
         <div id="progress">
           <div id="percentage"></div>
         </div>
@@ -13,11 +12,12 @@
             As the build date approaches (10/12/19), there are still a few details to work out.
             The site is prepped and we are anxiously awaiting delivery of the materials.
           </p>
-
+            <div class="date bold text-center italic">Updated 10/5/2019</div>
           <ul class="todo w-full md:w-1/3">
             <li class="complete mx-2">Prep site for build</li>
-            <li class="mx-2">Frame and install floor joist</li>
-            <li class="mx-2">Install OSB sub-floor</li>
+            <li class=" mx-2">Materials delivered</li>
+            <li class=" mx-2">Frame and install floor joist</li>
+            <li class=" mx-2">Install OSB sub-floor</li>
             <li class="mx-2">Frame and erect walls</li>
             <li class="mx-2">Apply exterior moisture barrier</li>
             <li class="mx-2">Cut and install roof rafters</li>
@@ -34,7 +34,6 @@
             <li class="mx-2">Install flooring and cabinet</li>
             <li class="mx-2">Paint and install trim</li>
             <li class="mx-2">Install electrical fixtures and outlets</li>
-            <li class="mx-2"></li>
           </ul>
         </div>
       </article>
@@ -46,7 +45,7 @@
   width: 80%;
   height: 25px;
   border-radius: 5px;
-  border: 1px solid #35495e;
+  border: 1px solid gold;
   text-align: center;
   align-items: center;
   margin: 10px auto;
@@ -54,7 +53,7 @@
 #percentage {
   width: 5%;
   height: 100%;
-  background: chocolate;
+  background: gold;
   border-radius: 4px;
 }
 
