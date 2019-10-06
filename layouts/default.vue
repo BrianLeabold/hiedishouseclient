@@ -1,9 +1,17 @@
 <template>
   <div>
+    <Navbar />
     <nuxt />
   </div>
 </template>
-
+<script>
+import Navbar from '../layouts/Navbar'
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -24,6 +32,33 @@ html {
   margin: 0;
 }
 
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #526488;
+  word-spacing: 5px;
+  /* padding-bottom: 5px; */
+}
+.container {
+  @apply min-h-screen flex justify-center text-center mx-auto;
+}
+
+.content {
+  text-align: left;
+  text-indent: 10px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
 .button--green {
   display: inline-block;
   border-radius: 4px;
