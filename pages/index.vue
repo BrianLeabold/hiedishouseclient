@@ -25,7 +25,24 @@
 
 <script>
 export default {
-  components: {}
+  head() {
+    return {
+      title: `About Heidi's House`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `“Heidi’s House” is a pilot program by W.A.G. Healing to explore and
+          strengthen the Human and Animal bond toward healing.`
+        },
+        {
+          hid: 'author',
+          name: 'author',
+          content: 'Brian Leabold'
+        }
+      ]
+    }
+  }
 }
 </script>
 

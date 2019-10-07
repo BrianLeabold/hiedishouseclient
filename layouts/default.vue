@@ -31,7 +31,9 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-
+p {
+  font-size: 1.2rem;
+}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;

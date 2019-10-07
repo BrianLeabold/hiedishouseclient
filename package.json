@@ -1,7 +1,7 @@
 {
   "name": "heidishouse",
   "version": "1.1.0",
-  "description": "Client side code for Hiedis  House",
+  "description": "Heidis House is a pilot program by W.A.G. Healing to explore and strengthen the Human and Animal bond toward healing",
   "author": "BrianLeabold",
   "private": true,
   "scripts": {

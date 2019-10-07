@@ -3,7 +3,7 @@
     <div>
       <h1 class="title">Fresh and up to date information</h1>
       <article>
-        <h2 class="subtitle mx-auto w-full">20% complete</h2>
+        <h2 class="subtitle mx-auto w-full">5% complete</h2>
         <div id="progress">
           <div id="percentage"></div>
         </div>
@@ -12,12 +12,12 @@
             As the build date approaches (10/12/19), there are still a few details to work out.
             The site is prepped and we are anxiously awaiting delivery of the materials.
           </p>
-            <div class="date bold text-center italic">Updated 10/5/2019</div>
+          <div class="date bold text-center italic">Updated 10/5/2019</div>
           <ul class="todo w-full md:w-1/3">
             <li class="complete mx-2">Prep site for build</li>
-            <li class=" mx-2">Materials delivered</li>
-            <li class=" mx-2">Frame and install floor joist</li>
-            <li class=" mx-2">Install OSB sub-floor</li>
+            <li class="mx-2">Materials delivered</li>
+            <li class="mx-2">Frame and install floor joist</li>
+            <li class="mx-2">Install OSB sub-floor</li>
             <li class="mx-2">Frame and erect walls</li>
             <li class="mx-2">Apply exterior moisture barrier</li>
             <li class="mx-2">Cut and install roof rafters</li>
@@ -40,6 +40,27 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  head() {
+    return {
+      title: `Updates - Heidi's House`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `Fresh and up to date information`
+        },
+        {
+          hid: 'author',
+          name: 'author',
+          content: 'Brian Leabold'
+        }
+      ]
+    }
+  }
+}
+</script>
 <style scoped>
 #progress {
   width: 80%;
