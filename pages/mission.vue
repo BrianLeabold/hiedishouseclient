@@ -8,6 +8,7 @@
       <div id="mission">
         <p class="mx-3 my-2">
           <img
+            title="Mack and Stella"
             class="float-right m-1"
             src="../static/android-chrome-512x512.png"
             alt="Mack and Stella"
